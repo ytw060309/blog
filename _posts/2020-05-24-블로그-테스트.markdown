@@ -1,11 +1,20 @@
 ---
 layout: post
-title:  "블로그 처음 테스트"
+title:  "#1 _ Git 명령어 & 리눅스 명령어"
 description: 테스트
 date:   2020-05-24 21:03:36 +0530
 categories: Javascript NodeJS
 ---
 
-# My Blog Test
+## Code
 
-## + Git 명령어
+<pre>
+<code>
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+
+}
+</code>
+</pre>
