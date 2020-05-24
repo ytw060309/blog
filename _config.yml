@@ -15,7 +15,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
+  title: 유태우의 기술블로그
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   style: black
