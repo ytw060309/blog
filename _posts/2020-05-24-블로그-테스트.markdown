@@ -16,33 +16,33 @@ categories: Javascript NodeJS
 >   > 2. git status
 >   > 3. git add
 >   > 4. git commit
->   > 5. git push
+>   > 5. git push 
         -> --delete
->   > 6. git remote
+>   > 6. git remote 
         -> add
         -> show
->   > 7. git clone
+>   > 7. git clone 
         -> -b
->   > 8. git pull
+>   > 8. git pull 
         -> -rebase
->   > 9. git fetch
+>   > 9. git fetch 
 
 
 > + **Git 명령어 사용방법**
 
->   > 1. _git init_
+>   > 1. _git init_ 
         역할 : 새로운 local repository 생성
 
         업로드하려는 폴더를 git이 확인할 수 있도록 .git폴더 생성
 
 
->   > 2. _git status_
+>   > 2. _git status_ 
         역할 : 파일 상태 확인
 
         git이 버전 관리 대상 파일들의 상태를 확인 (에러 확인 가능)
 
 
->   > 3. _git add_
+>   > 3. _git add_ 
         역할 : 버전 관리할 파일을 storage에 추가
 
         버전 관리할 파일들을 storage에 추가하며,
@@ -54,7 +54,7 @@ categories: Javascript NodeJS
         로 전체 파일을 add할 수 있음
 
 
->   > 4. _git commit_
+>   > 4. _git commit_ 
         역할 : add한 파일을 local repository에 저장 
         <pre>
         <code>
@@ -64,6 +64,6 @@ categories: Javascript NodeJS
         에서 -m을 통해 commit 메세지 입력 가능
 
 
-        
+
 
 * * *
