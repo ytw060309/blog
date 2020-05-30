@@ -9,7 +9,7 @@ categories: Javascript NodeJS
 * * * 
 
 > ## I. Git 명령어
-
+   
 > + **Git 명령어의 종류**
 
 >   > 1. git init
@@ -24,33 +24,93 @@ categories: Javascript NodeJS
 >   > 7. git clone 
 >   >   > -> -b
 >   > 8. git pull 
->   >   > -> -rebase
->   > 9. git fetch 
-
-
+>   >   > -> --rebase
+   
+   
 > + **Git 명령어 사용방법**
 
 >   > 1:: _git init_ 
 >   >   > 역할 : 새로운 local repository 생성      
 >   >   > 업로드하려는 폴더를 git이 확인할 수 있도록 .git폴더 생성
-
+   
 >   > 2:: _git status_ 
 >   >   > 역할 : 파일 상태 확인     
 >   >   > git이 버전 관리 대상 파일들의 상태를 확인 (에러 확인 가능)
-
+   
 >   > 3:: _git add_ 
 >   >   > 역할 : 버전 관리할 파일을 storage에 추가    
 >   >   > 버전 관리할 파일들을 storage에 추가하며, <code>
 >   >   > git add .
 >   >   > </code> 로 전체 파일을 add할 수 있음
-
+   
 >   > 4:: _git commit_ 
 >   >   > 역할 : add한 파일을 local repository에 저장     
 >   >   > <code>
 >   >   > git commit -m ""
 >   >   > </code> 에서 -m을 통해 commit 메세지 입력 가능
-
-
-
-
+   
+>   > 5:: _git push_ 
+>   >   > 역할 : local repository를 remote repository에 업로드     
+>   >   > 
+>   >   >  git push { 원격 저장소명 } { 원격 브랜치명 }
+>   >   > </code> 을 통해 업로드 가능   
+>   >   > - --delete   
+>   >   > <code>git push --delete { 원격 브랜치명 }</code>   
+>   >   > remote repository에 있는 브랜치를 삭제
+   
+>   > 6:: _git remote_ 
+>   >   > 역할 : local repository에 remote repository를 등록 
+>   >   > <code>
+>   >   > git remote add {별칭} {remote repository URL 주소}
+>   >   > </code> 로 등록할 수 있음
+>   >   > - add   
+>   >   > remote repository 등록   
+>   >   > - show   
+>   >   > <code>git remote show {원격 저장소명}</code>   
+>   >   > remote repository 정보 확인
+   
+>   > 7:: _git clone_ 
+>   >   > 역할 : 서버의 프로젝트를 다운로드
+>   >   > <code>
+>   >   > git clone {원격 저장소 URL}
+>   >   > </code>로 다운로드 가능
+>   >   > - -b  
+>   >   > <code>git clone -b { 브랜치명 } { 원격 저장소 URL }</code>   
+>   >   > 특정 브랜치 clone
+   
+>   > 8:: _git pull_ 
+>   >   > 역할 : 서버의 프로젝트를 다운로드하고, local repository와 비교하여 병합을 하고, local repository에 저장( add )까지 수행
+>   >   > <code>
+>   >   > git pull { 원격 저장소 별명 } { 브랜치명 }
+>   >   > </code>
+>   >   > - --rebase  
+>   >   > <code>git clone --rebase { 브랜치명 } { 원격 저장소 URL }</code>   
+>   >   > merge방식이 아닌, rebase방식으로 병합 (log가 더 깔끔)
+   
 * * *
+   
+> ## II. 파일 디렉토리 선택 (Linux)
+   
+> **이동 명령어 : cd**
+
+> **ls ( list directory contents) 사용법**
+>   > 1. cd [디렉토리 경로] : [디렉토리 경로]로 이동
+>   > 2. cd .              : 현재 디랙토리
+>   > 3. cd ..             : 한단계 상위 디렉토리
+>   > 4. cd /              : 최상위 디렉토리로 이동
+>   > 5. cd $변수명         : 변수에 저장된 디렉토리로 이동
+>   > 6. cd -              : 이전 경로 선택
+   
+   
+> **탐색 명령어 : ls**
+
+> **cd (change directory) 사용법**
+>   > ls {옵션} {파일/디렉토리}의 형태로 사용
+
+>   > - 옵션
+>   > 1. ls            현재 위치 파일 이름 표시
+>   > 2. ls -a         디렉토리 안의 모든 파일과 디렉토리 표시
+>   > 3. cd -l         파일에 대한 정보를 자세하게 표시 (사용자의 권한, 소유자 그룹, 크기, 날짜 등)
+>   > 4. cd -h         cd -l에서 지정한 크기 등을 사람이 보기 편하게 표시
+>   > 5. cd $변수명     변수에 저장된 디렉토리로 이동
+>   > 6. cd -          이전 경로 선택
