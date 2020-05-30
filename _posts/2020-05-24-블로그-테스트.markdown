@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "#1 [Git 명령어 & 리눅스 명령어]"
-description: 테스트
+description: Git 기본 명령어 & 리눅스 디렉토리 관련 명령어
 date:   2020-05-24 21:03:36 +0530
-categories: Javascript NodeJS
+categories: Git Github LinuxDirectory
 ---
 
 * * * 
