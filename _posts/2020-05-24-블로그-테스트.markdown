@@ -46,11 +46,11 @@ categories: Javascript NodeJS
 >   >   > 역할 : 버전 관리할 파일을 storage에 추가
 
 >   >   > 버전 관리할 파일들을 storage에 추가하며,
->   >   > <pre>
->   >   > <code>
->   >   > git add .
->   >   > </code>
->   >   > </pre>
+<pre>
+<code>
+git add .
+</code>
+</pre>
 >   >   > 로 전체 파일을 add할 수 있음
 
 
