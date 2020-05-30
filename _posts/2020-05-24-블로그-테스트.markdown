@@ -10,7 +10,7 @@ categories: Javascript NodeJS
 
 > ### Git 명령어
 
->   + Git 명령어의 종류
+>   + Git 명령어의 종류!
 
 
 ===   
