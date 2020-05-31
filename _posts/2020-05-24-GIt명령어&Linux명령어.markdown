@@ -79,7 +79,7 @@ categories: Git Github LinuxDirectory
 >   >   > 특정 브랜치 clone
 >   
 >   > 8:: _git pull_ 
->   >   > 역할 : 서버의 프로젝트를 다운로드하고, local repository와 비교하여 병합을 하고, local repository에 저장( add )까지 수행
+>   >   > 역할 : 서버의 프로젝트를 다운로드하고, local repository와 비교하여 병합을 하고, local repository에 저장( add )까지 수행   
 >   >   > <code>
 >   >   > git pull { 원격 저장소 별명 } { 브랜치명 }
 >   >   > </code>
