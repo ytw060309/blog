@@ -10,7 +10,7 @@ categories: Git Github LinuxDirectory
 
 > ## I. Git 명령어
    
-> + **Git 명령어의 종류**
+> + **Git 기본 명령어의 종류**
 
 >   > 1. git init
 >   > 2. git status
