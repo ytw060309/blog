@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "2 [웹사이트 방문자 확인하기]"
-description: Analytics
+title:  "2 Analytics사용하기"
+description: Google Analytics
 date:   2020-05-31 21:03:36 +0530
 categories: Analytics
 ---
 
 * * * 
 
-> ## I. 웹사이트 방문자 확인하기   
+> ## I. Analytics 사용하기   
    
->   > **Google Analytics** 를 통해 방문자 확인 가능   
+>   > **Google Analytics** 를 통해 사용 가능   
    
 >   > Analytics에 웹사이트 등록 방법   
 >   > 1. **google analytics 검색**   
-![Alt text](../assets/img/2/img1.jpg "1")   
+![Alt text]({{ site.baseurl }}/assets/img/2/img1.jpg "1")   
 >   > 2. **가입**   
 ![Alt text](../assets/img/2/img2.jpg "2")   
 google analytics에 들어간 후 "무료로 계정 만들기" 클릭   
