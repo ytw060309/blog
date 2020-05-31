@@ -14,8 +14,6 @@ categories: Analytics
    
 >   > Analytics에 웹사이트 등록 방법   
 >   > 1. google analytics 검색   
-<html>
-<img src="/assets/img/#2/img1.jpg" width="70%" high=auto title="img1" alt="img1"></img><br/>   
 ![Alt text](../assets/img/#2/img1.jpg "Optional title")
 >   > 2. 가입   
 <img src="/assets/img/#2/img2.jpg" width="70%" high=auto title="img1" alt="img1"></img><br/>   
@@ -37,4 +35,3 @@ google analytics에 들어간 후 "무료로 계정 만들기" 클릭
 왼쪽 홈버튼을 클릭히면   
 다음과 같은 창이 나오며 분당 사용자 확인 가능
 <img src="/assets/img/#2/img6.jpg" width="70%" high=auto title="img1" alt="img1"></img><br/>
-</html>
