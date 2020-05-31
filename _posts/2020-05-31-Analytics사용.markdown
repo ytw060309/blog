@@ -35,5 +35,3 @@ google analytics에 들어간 후 "무료로 계정 만들기" 클릭
 왼쪽 홈버튼을 클릭히면   
 다음과 같은 창이 나오며 분당 사용자 확인 가능   
 ![Alt text]({{ site.baseurl }}/assets/img/2/img7.jpg "7")   
-
-<script id="dsq-count-scr" src="//ytw060309-github-io-blog.disqus.com/count.js" async></script>
