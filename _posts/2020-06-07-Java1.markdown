@@ -17,15 +17,15 @@ categories: Analytics
 > ## II. Java의 main 메소드
 >   > java 프로그램을 실행시키기 위해서는 프로그램의 시작점을 만들어줘야한다. 이 시작점이 바로 main 메소드이다. 
 메인 메소드는 자바 파일명과 같은 이름의 클래스 안에 생성하며, 다음과 같이 코드를 적을 수 있다.   
->   > <pre>
->   ><code>
->   > public class [자바 파일명] {
->   >     public statis void main (String[] args) {
->   >         
->   >     }
->   > }
->   ></code>
->   ></pre>
+<pre>
+<code>
+public class [자바 파일명] {
+    public statis void main (String[] args) {
+        
+    }
+}
+</code>
+</pre>
 >   > 이제 프로그램이 실행되면 main 메소드부터 시작하게 된다. (프로그램의 동작 코드는 main 메소드 안에 넣으면 된다.)   
 >   
 >   
