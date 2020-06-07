@@ -11,7 +11,7 @@ categories: Analytics
 > ## I. Java란?   
    
 >   > java는 객체 지향 프로그래밍 언어로, 보안성이 뛰어나며 컴파일한 코드는 다른 운영 체제에서 사용할 수 있도록 클래스(class)로 제공되기에 플랫폼간의 호환성이 높은 프로그래밍 언어이다.
-![Alt text]({{ site.baseurl }}/assets/img/2/img1.png "java_img")   
+![Alt text]({{ site.baseurl }}/assets/img/4/img1.png "java_img")   
 >     
 >   
 > ## II. Java의 main 메소드
