@@ -21,7 +21,7 @@ categories: Analytics
 >   > <code>
 public class [자바 파일명] {
     public statis void main (String[] args) {
-
+        
     }
 }
 >   > </code>
