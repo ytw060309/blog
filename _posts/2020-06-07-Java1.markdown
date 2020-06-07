@@ -18,13 +18,20 @@ categories: Analytics
 >   > java 프로그램을 실행시키기 위해서는 프로그램의 시작점을 만들어줘야한다. 이 시작점이 바로 main 메소드이다. 
 메인 메소드는 자바 파일명과 같은 이름의 클래스 안에 생성하며, 다음과 같이 코드를 적을 수 있다.   
 
-public class [자바 파일명] {   
-    public statis void main (String[] args) {   
-           
-    }   
-}   
+<div class="colorscripter-code" style="color:#000000;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#000000;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#A51D5C">public</span>&nbsp;<span style="color:#A51D5C">class</span>&nbsp;[자바&nbsp;파일명]&nbsp;{&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#A51D5C">public</span>&nbsp;statis&nbsp;<span style="color:#A51D5C">void</span>&nbsp;main&nbsp;(<span style="color:#066BE0">String</span>[]&nbsp;args)&nbsp;{&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%">}&nbsp;&nbsp;&nbsp;</div></div><div style="text-align:right;margin-top:-13px;margin-right:5px;font-size:9px;font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#e5e5e5text-decoration:none">Colored by Color Scripter</a></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
 
 >   > 이제 프로그램이 실행되면 main 메소드부터 시작하게 된다. (프로그램의 동작 코드는 main 메소드 안에 넣으면 된다.)   
+>   
+>   
+> ## III. 주석
+>   > 코드를 작성하다보면, 간혹 그 코드에 대한 설명이 필요한 경우가 있다. 이때 사용할 수 있는 것이 바로 주석이다.   
+>   > 주석은 프로그램에 아무 영향을 미치지 않으며, 오직 프로그래머에게 정보를 제공해주는 메모 역할을 해준다.   
+>   > **1. 한줄 주석**   
+>   >   > <pre><code> // [주석할 내용] </code></pre>
+>   >   > 슬레시 다음의 그 중에 있는 모든 글자들이 주석처리된다.   
+>   > **2. 범위 주석**   
+>   >   ><code> /* [주석할 내용] */ (주석처리 안됨) </code>   
+>   >   /* 은 시작점, */ 은 끝을 나타낸다.   
 >   
 >   
 > ## III. 주석
