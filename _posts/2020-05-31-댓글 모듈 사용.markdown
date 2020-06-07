@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "#3 댓글 모듈 사용하기"
+title:  "#3 Disqus 사용하기"
 description: DISQUS
 date:   2020-05-31 21:03:36 +0530
-categories: DISQUS 댓글모듈
+categories: 댓글모듈 Disqus
 ---
 
 * * * 
