@@ -84,7 +84,6 @@ categories: Analytics
 >   >   > [경우 2가 참일 때 실행할 내용]   
 >   >   > break;   
 >   > ...   
->   >
 >   > default :   
 >   >   >  [위 케이스들이 모두 아닐 때 실행할 내용]   
 >   >   >  break;   
