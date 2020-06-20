@@ -47,5 +47,4 @@ categories: android android_layout android_widget
 >   >   >  
 >   > 4. **Switch**  
 >   >   > - on/off 스위치를 보여줌    
->   >   > - 태그   
 >   >   > - id 태그를 사용해 java 파일에서 스위치가 켜진 경우에 따른 행동 설정 가능 
