@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "#7 안드로이드 화면 레이아웃과 위젯"
+description: Android Developing
+date:   2020-06-14 21:03:36 +0530
+categories: android android_layout android_widget
+---
+
+* * * 
+
+> ## I. 레이아웃이란   
+   
+>   > 레이아웃이란, 안드로이드 화면 구성 방식을 말한다.
+
+> ## II. 레이아웃 종류  
+>   > 1. **LinearLayout**  
+>   >   > - 왼쪽에서 오른쪽, 위쪽에서 아랫쪽으로 위젯들을 순서대로 배치
+>   >   > - 속성   
+>   >   >   > 1. orientation : 위젯 배치 방향 설정 (horizontal / verticla)
+>   >   >   > 2. gravity : 각 위젯에서의 정렬 설정 (왼쪽정렬, 가운데정렬 ...)
+>   >   >   > 3. layout_gravity : 레이아웃에서의 정렬 설정
+>   >   >  
+>   > 2. **RelativeLayout**   
+>   >   > 상대적인 위치로 배치 (각 위젯들이 서로의 위치 결정)
+>   >   > - 부모를 기준으로 배치   
+![Alt text]({{ site.baseurl }}/assets/img/7/img1.png "1")   
+>   >   > - 다른 위젯을 기준으로 배치
+>   >   >   > id를 사용하여 다른 위젯 기준으로 배치 가능      
+![Alt text]({{ site.baseurl }}/assets/img/7/img2.png "1")   
+
+> ## III. 위젯이란   
+   
+>   > 화면 안에서 레이아웃에 맞추어 그려지는 여러가지 것들을 말한다.
+
+> ## IV. 대표 위젯 종류  
+>   > 1. **TextView**  
+>   >   > - 화면에 문자를 보여줌       
+>   >   >  
+>   > 2. **Button**  
+>   >   > - 화면에 버튼을 띄움    
+>   >   > - id 태그를 사용해 java 파일에서 버튼이 눌린 경우에 따른 행동 설정 가능 
+>   >   >  
+>   > 3. **ScrollView**  
+>   >   > - 화면을 위아래로 스크롤 할 수 있는 바 생성    
+>   >   > - 특징   
+>   >   >   > ScrollView안에 레이아웃 생성 후 레이아웃 안에다가 다른 위젯 생성   
+>   >   >  
+>   > 4. **Switch**  
+>   >   > - on/off 스위치를 보여줌    
+>   >   > - 태그   
+>   >   > - id 태그를 사용해 java 파일에서 스위치가 켜진 경우에 따른 행동 설정 가능 
