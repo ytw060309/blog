@@ -15,33 +15,33 @@ categories: opengraph_tag opengraph og_tag
 > ## II. Opengraph 기본 태그  
 >   > 1. **og:title**  
 >   >   > - 사이트 제목을 나타냄
->   >   > - *<meta property="og:title" content="TITLE" />*
+>   >   > - *< meta property="og:title" content="TITLE" />*
 >   > 2. **og:type**   
 >   >   > - 사이트 종류 (website, movie ...)
->   >   > - *<meta property="og:type" content="TYPE" />*
+>   >   > - *< meta property="og:type" content="TYPE" />*
 >   > 3. **og:url**   
 >   >   > - 사이트 대표 url
->   >   > - *<meta property="og:url" content="URL" />*
+>   >   > - *< meta property="og:url" content="URL" />*
 >   > 4. **og:image**   
 >   >   > - 사이트 대표 이미지
->   >   > - *<meta property="og:image" content="IMG" />*
+>   >   > - *< meta property="og:image" content="IMG" />*
 
 > ## II. Opengraph 옵션 태그  
 >   > 1. **og:audio**  
 >   >   > - 사이트에 포함될 오디오 파일
->   >   > - *<meta property="og:audio" content="AUDIO" />*
+>   >   > - *< meta property="og:audio" content="AUDIO" />*
 >   > 2. **og:description**   
 >   >   > - 사이트 설명
->   >   > - *<meta property="og:description" content="DESCRIPTION" />*
+>   >   > - *< meta property="og:description" content="DESCRIPTION" />*
 >   > 3. **og:determiner**   
 >   >   > - 사이트 문장 시작 단어 선택
->   >   > - *<meta property="og:determiner" content="DETERMINE" />*
+>   >   > - *< meta property="og:determiner" content="DETERMINE" />*
 >   > 4. **og:locale**   
 >   >   > - 사이트 기본 언어 (en_US, ko_KR ...)
->   >   > - *<meta property="og:locale" content="LANGUAGE" />*
+>   >   > - *< meta property="og:locale" content="LANGUAGE" />*
 >   > 5. **og:site_name**   
 >   >   > - 사이트 부제목 (카테고리)
->   >   > - *<meta property="og:site_name" content="TITLE" />*
+>   >   > - *< meta property="og:site_name" content="TITLE" />*
 >   > 6. **og:video**   
 >   >   > - 사이트에 포함될 비디오 파일
->   >   > - *<meta property="og:video" content="VIDEO" />*
+>   >   > - *< meta property="og:video" content="VIDEO" />*
