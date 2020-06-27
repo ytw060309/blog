@@ -11,6 +11,7 @@ categories: opengraph_tag opengraph og_tag
 > ## I. Opengraph란?   
    
 >   > sns에서 시작되었으며, 특정 링크에 대한 제목, 설명 이미지 등을 미리 표시하기 위한 태그이다.
+![Alt text]({{ site.baseurl }}/assets/img/8/img1.jpg "2")   
 
 > ## II. Opengraph 기본 태그  
 >   > 1. **og:title**  
