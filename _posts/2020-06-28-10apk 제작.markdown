@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "#9 APK 제작하기"
+description: Android Developing
+date:   2020-06-28 21:03:36 +0530
+categories: apk
+---
+
+* * * 
+
+> ## I. APK랸?
+>   > 안드로이드에서 프로그램 형태로 배포되는 형식의 확장자   
+   
+> ## II. APK 만들기
+>   > 1 . apk를 저장할 폴더 생성   
+   https://play.google.com/apps/publish/   
+   
+>   > 2 . build >  Generate Signed Bundle / APK 에 들어가서 APK 선택
+![Alt text]({{ site.baseurl }}/assets/img/10/img1.jpg "1")   
+   
+>   > 3 . Create New... 클릭
+![Alt text]({{ site.baseurl }}/assets/img/10/img2.jpg "1")   
+   
+>   > 4 . 자신의 apk 저장 폴더 선택
+![Alt text]({{ site.baseurl }}/assets/img/10/img3.jpg "1")   
+   
+>   > 5 . password, alias, alias에 대한 비밀번호, 유효기간 입력
+![Alt text]({{ site.baseurl }}/assets/img/10/img4.jpg "1")   
+   
+>   > 6 . 정보가 잘 들어갔는지 확인
+![Alt text]({{ site.baseurl }}/assets/img/10/img5.jpg "1")
+
+>   > 7 . release를 선택하고, V1과 V2 둘 다 선택
+![Alt text]({{ site.baseurl }}/assets/img/10/img6.jpg "1")
+
+>   > 8 . 자동 빌드
+![Alt text]({{ site.baseurl }}/assets/img/10/img7.jpg "1")
+
+>   > 9 . 키 생성 확인 (release 폴더)
+![Alt text]({{ site.baseurl }}/assets/img/10/img8.jpg "1")
+
