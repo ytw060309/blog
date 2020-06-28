@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "#8 Opengraph 태그"
+title:  "#08 Opengraph 태그"
 description: Android Developing
 date:   2020-06-21 21:03:36 +0530
 categories: opengraph_tag opengraph og_tag

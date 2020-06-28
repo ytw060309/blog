@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "#5 ColorScripter 사용하기"
+title:  "#05 ColorScripter 사용하기"
 description: 코드에 색 입히기
 date:   2020-06-07 21:03:36 +0530
 categories: Colorscripter

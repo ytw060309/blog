@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "#9 구글 개발자 등록하기"
+title:  "#09 구글 개발자 등록하기"
 description: Android Developing
 date:   2020-06-28 21:03:36 +0530
 categories: google_developer playstore
